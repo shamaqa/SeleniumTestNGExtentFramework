@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Cert Log In Suite]">
+  <test thread-count="5" name="Corillian Log In With Valid Credentials Using Chrome Test Case(failed)">
+    <classes>
+      <class name="logIn.ValidCredentials">
+        <methods>
+          <include name="ValidUsernameChromeLogIn"/>
+          <include name="tearDown"/>
+          <include name="ValidUsernameFirefoxLogIn"/>
+          <include name="setUpReporter"/>
+        </methods>
+      </class> <!-- logIn.ValidCredentials -->
+    </classes>
+  </test> <!-- Corillian Log In With Valid Credentials Using Chrome Test Case(failed) -->
+</suite> <!-- Failed suite [Cert Log In Suite] -->

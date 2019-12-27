@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name= "Cert Transfers Suite">
+	
+	<test name= "Corillian Transfers">
+	
+		<suite-files>
+	
+		<Suite-file path="LogInSuite.xml"><</Suite-file>
+		<suite-file path="TransferSuite.xml"><</suite-file>
+	
+		</suite-files>
+	
+	</test>
+	
+</suite>
